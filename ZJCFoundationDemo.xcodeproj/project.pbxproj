@@ -15,7 +15,7 @@
 		8AE2C96A1E60276500D695ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE2C9681E60276500D695ED /* LaunchScreen.storyboard */; };
 		8AE2C9751E60276500D695ED /* ZJCFoundationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2C9741E60276500D695ED /* ZJCFoundationDemoTests.m */; };
 		8AE2C9801E60276500D695ED /* ZJCFoundationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2C97F1E60276500D695ED /* ZJCFoundationDemoUITests.m */; };
-		8AE2C9901E6027AE00D695ED /* ZJCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2C98F1E6027AE00D695ED /* ZJCView.m */; };
+		8AE2C9941E6041EB00D695ED /* ZJCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2C9931E6041EB00D695ED /* ZJCView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		8AE2C97B1E60276500D695ED /* ZJCFoundationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJCFoundationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE2C97F1E60276500D695ED /* ZJCFoundationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJCFoundationDemoUITests.m; sourceTree = "<group>"; };
 		8AE2C9811E60276500D695ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8AE2C98E1E6027AE00D695ED /* ZJCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCView.h; sourceTree = "<group>"; };
-		8AE2C98F1E6027AE00D695ED /* ZJCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCView.m; sourceTree = "<group>"; };
+		8AE2C9921E6041EB00D695ED /* ZJCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCView.h; sourceTree = "<group>"; };
+		8AE2C9931E6041EB00D695ED /* ZJCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		8AE2C9591E60276500D695ED /* ZJCFoundationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8AE2C98D1E60279D00D695ED /* ZJCFoundation */,
+				8AE2C9911E6041E100D695ED /* ZJCFoundation */,
 				8AE2C95D1E60276500D695ED /* AppDelegate.h */,
 				8AE2C95E1E60276500D695ED /* AppDelegate.m */,
 				8AE2C9601E60276500D695ED /* ViewController.h */,
@@ -144,11 +144,11 @@
 			path = ZJCFoundationDemoUITests;
 			sourceTree = "<group>";
 		};
-		8AE2C98D1E60279D00D695ED /* ZJCFoundation */ = {
+		8AE2C9911E6041E100D695ED /* ZJCFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				8AE2C98E1E6027AE00D695ED /* ZJCView.h */,
-				8AE2C98F1E6027AE00D695ED /* ZJCView.m */,
+				8AE2C9921E6041EB00D695ED /* ZJCView.h */,
+				8AE2C9931E6041EB00D695ED /* ZJCView.m */,
 			);
 			path = ZJCFoundation;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 			files = (
 				8AE2C9621E60276500D695ED /* ViewController.m in Sources */,
 				8AE2C95F1E60276500D695ED /* AppDelegate.m in Sources */,
-				8AE2C9901E6027AE00D695ED /* ZJCView.m in Sources */,
+				8AE2C9941E6041EB00D695ED /* ZJCView.m in Sources */,
 				8AE2C95C1E60276500D695ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
