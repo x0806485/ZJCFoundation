@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
 
   s.author             = { "zjc" => "x0806485@163.com" }
 
-  s.source       = { :git => "https://github.com/x0806485/ZJCFoundation.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/x0806485/ZJCFoundation.git", :tag => "v#{s.version}" }
 
   s.platform         = :ios
   s.requires_arc     = true
-
+           
   s.source_files  =  "ZJCFoundationDemo/ZJCFoundation/*.{h,m}"
 
  # s.public_header_files = "Classes/**/*.h"
