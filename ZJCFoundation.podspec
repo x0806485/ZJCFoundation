@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/x0806485/ZJCFoundation"
- 
+
   s.license          = { :type => 'None', :file => 'LICENSE' }
 
   s.author             = { "zjc" => "x0806485@163.com" }
